@@ -20,9 +20,15 @@ public class TestBase
        }
        public static void quit()
        {
-           System.out.println("Browser is closed");
+           System.out.println("Browser quit");
            driver.quit();
            driver=null;
        }
+    public static void close()
+    {
+        System.out.println("Browser is closed");
+        driver.close();
+
+    }
 
 }
