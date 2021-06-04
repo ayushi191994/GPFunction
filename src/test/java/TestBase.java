@@ -6,6 +6,7 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 public class TestBase
 {
     public static WebDriver driver=null;
+    int n;
 
     public static void initialization()
     {
